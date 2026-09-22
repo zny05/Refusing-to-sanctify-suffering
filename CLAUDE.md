@@ -120,6 +120,88 @@ Markdown 文件内容为单一连贯的自然语言提示词，遵循上述转�
 
 ---
 
+## 附（二）、Nano Banana 2 保持角色一致性的六大技术规范
+
+> 来源：项目技术规范文档《Nano Banana 2保持角色一致性的六大技术规范.md》
+> 用途：确保角色在不同镜头、姿态与光影下都能精准重构同一个角色。
+
+### 角色一致性的底层逻辑：三层锚点架构
+
+编写角色 Prompt 时，必须将角色的所有特征划分为三个维度，避免将临时动作或环境污染到角色的核心外貌特征：
+
+| 层级 | 名称 | 内容 | 规则 |
+|---|---|---|---|
+| L1 | 静态不变层 (Hard Anchors) | 面部结构/五官形态、发型发色、瞳色、肤色、固有特征（疤痕/痣/眼镜） | 在任何分镜中都**绝对不能改变**，必须在每一个分镜 Prompt 中完整保留 |
+| L2 | 半固定层 (Soft Anchors) | 标志性服装、默认身形比例、常用配饰、默认绘画艺术风格 | 角色在特定章节或场景内的标准外观，切换场景或换装时才可调整 |
+| L3 | 动态可变层 (Dynamic Variables) | 表情、肢体动作、镜头视角/距离、光影氛围、当前分镜道具 | 仅属于当前分镜的临时属性 |
+
+### 六大技术规范
+
+#### 1. 唯一标识符与具象化命名 (Unique Tokenization)
+
+- **禁止使用通用模糊词**：如 `pretty anime girl` 或 `cool guy`，这会导致模型随机采样通用的面部特征。
+- **使用复合专有标识符**：为角色赋予专有代号（如 `OldZhou_Father_v1`、`XiaoXia_Daughter_v1`、`Narrator_Observer_v1`）。虽然 Nano Banana 2 并非通过 LoRA 训练，但在同一上下文或链式生成中，固定名称能帮助大语言模型强化语义归因。
+
+#### 2. 颜色与属性解耦规范 (Color Bleed Prevention)
+
+- 为了防止"颜色污染"（例如：描述"红头发"导致角色穿着红衣服或背景也变成红色），**必须明确属性与物体的归属关系**。
+- ❌ 错误格式：`red hair, blue jacket, green eyes, red background`
+- ✅ 正确规范：`hair dyed crimson red, wearing a denim blue jacket, featuring vivid green iris eyes, set against a plain light gray background`
+
+#### 3. 高权重独占特征锁定 (High-Weight Feature Locking)
+
+- 每个角色必须包含 **2-3 个具备极高视觉辨识度的独占特征**（Anchor Tokens）。
+- 这些微小但具体的特征在漫画像素中更容易被模型的注意力机制捕获。
+- 例如：左眼下方有两颗垂直排列的小黑痣、不对称的不锈钢圆框眼镜等。
+
+#### 4. 设定集先行策略 (Master Character Sheet First)
+
+- 在生成任何分镜漫画之前，**必须先用 1:1 或 16:9 比例生成一张包含正面、半侧面和全身的 Character Turnaround Sheet**。
+- 后续分镜生成时，将此设定集作为上下文参考图（Image Reference）挂载，并在 Prompt 中引用相同的 L1 描述。
+
+#### 5. 分镜 Prompt 拼接与注入范式 (Panel Prompt Assembly)
+
+进入具体漫画分镜制作时，Prompt 必须严格按照以下顺序进行动态拼接：
+
+```
+[角色固定锚点 (L1)] + [当前服装 (L2)] + [当前动作/表情 (L3)] + [镜头与构图 (L3)] + [环境与光影 (L3)]
+```
+
+**示例分镜 Prompt：**
+```
+*(L1)* OldZhou_Father_v1, a 56-year-old man with weathered face, short cropped graying hair, deep nasolabial folds.
+*(L2)* Wearing his dark navy work jacket and gray cotton trousers.
+*(L3-Action/Expression)* He is gritting his teeth in intense effort, lifting his daughter, clenching both fists.
+*(L3-Camera/Scene)* Three-quarter view from above, low-angle close-up, dramatic side lighting, warm tones, comic book panel framing.
+```
+
+#### 6. 文字与声效渲染排他性 (Text & SFX Isolation)
+
+Nano Banana 2 具备极强的图像内文字渲染能力。如果需要在漫画分镜中加入拟声词（SFX）或对白框（Speech Bubble）：
+
+- **对白/音效须单独括号加引号指定**：如 `a comic speech bubble above his head saying "WATCH OUT!" in bold yellow text`。
+- **若不需要文字，必须明确加注排他指令**：`no text, no speech bubbles, no captions`，防止模型在画幅边缘随机生成伪文字噪音。
+
+### 完整 Character Reference Prompt 标准结构范式
+
+为角色建立初始档案或生成 Master Sheet（主设定图）时，统一采用以下模块化 Prompt 结构：
+
+```
+[艺术风格与渲染引擎] + [角色唯一标识符与基本定义] + [L1 静态外貌锚点] + [L2 服装与标志配饰] + [三视图/多视角控制指令] + [背景隔离与渲染要求]
+```
+
+**标准语法模板 (Master Sheet Reference Standard)：**
+```
+[Style] Detailed comic book style character design sheet, clean line art, cel-shaded, vector illustration.
+[Identity] Character reference sheet for [Unique ID, e.g., "OldZhou_Father_v1"], a 56-year-old East Asian working-class man.
+[L1 Face & Hair] Weathered face with deep nasolabial folds, deep-set eyes, short cropped graying hair.
+[L2 Outfit] Wearing a dark navy work jacket slightly worn at elbows, gray cotton trousers, dark slippers at home.
+[Model Sheet Framing] Character turnaround sheet showing three full-body views: front view, three-quarter view, and side profile view. Neutral standing pose, consistent height and proportions across all views.
+[Rendering & Background] Plain solid light gray background, isolated character, studio lighting, high resolution, no text, no extra characters.
+```
+
+---
+
 ## 四、阶段验收
 
 - 页码、格号及文件名一致，规划页数与实际产出区分。
