@@ -1,15 +1,1 @@
-{
-  "character": "小夏（女儿）— 平静依赖",
-  "description": "Xiao Xia (daughter), 26 years old. Same base description: long dark hair in low ponytail, slender build, light-colored home wear, in wheelchair.",
-  "scene": "Sitting in her wheelchair in the apartment, morning or afternoon soft light.",
-  "clothing": "Pale blue or cream loose-fitting top, soft trousers.",
-  "actions": "Sitting upright in wheelchair, hands resting on lap or armrests. Gaze directed at her father or toward the room, calm and present.",
-  "angles": {
-    "front": "Face looking slightly to the side, eyes soft. A quiet, trusting stillness.",
-    "side": "Profile showing her relaxed posture in the wheelchair, hair falling gently over one shoulder."
-  },
-  "expression": "Calm and dependent — relaxed eyes, neutral mouth, a quiet trust in others. Dependence shown through stillness, not through distress.",
-  "mood": "Quiet companionship, everyday calm, mutual understanding between father and daughter.",
-  "lighting": "Soft diffused daylight, gentle shadows. Low contrast.",
-  "note": "Default expression for Xiao Xia in non-stressful daily scenes."
-}
+{"character": "小夏（女儿）— 平静依赖", "description": "Xiao Xia (daughter), 26 years old. Same base description: long dark hair in low ponytail, slender build, light-colored home wear, in wheelchair.", "scene": "Sitting in her wheelchair in the apartment, morning or afternoon soft light.", "clothing": "Pale blue or cream loose-fitting top, soft trousers.", "actions": "Sitting upright in wheelchair, hands resting on lap or armrests. Gaze directed at her father or toward the room, calm and present.", "angles": {"front": "Face looking slightly to the side, eyes soft. A quiet, trusting stillness.", "side": "Profile showing her relaxed posture in the wheelchair, hair falling gently over one shoulder."}, "expression": "Calm and dependent — relaxed eyes, neutral mouth, a quiet trust in others. Dependence shown through stillness, not through distress.", "mood": "Quiet companionship, everyday calm, mutual understanding between father and daughter.", "lighting": "Soft diffused daylight, gentle shadows. Low contrast.", "note": "Default expression for Xiao Xia in non-stressful daily scenes."}
