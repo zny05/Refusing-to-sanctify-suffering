@@ -1,0 +1,16 @@
+{
+  "character": "老周（父亲）— 释然",
+  "description": "Old Zhou (father), 56 years old. Same base description: dark blue work jacket, gray cotton trousers, but now standing with straight back.",
+  "scene": "After discovering and adopting assistive devices. Bright warm interior, afternoon light.",
+  "clothing": "Clean dark blue work jacket, gray cotton trousers. No longer in slippers — wearing simple shoes.",
+  "actions": "Standing tall with a straight back, holding a teacup in one hand, the other resting naturally at his side. Posture relaxed but dignified.",
+  "angles": {
+    "front": "Face looking forward with a gentle, quiet smile. Eyes warm and present. No tension visible.",
+    "side": "Profile showing a straight, relaxed spine. Shoulders naturally back. Handsome in a plain, weathered way.",
+    "three_quarter": "Three-quarter view from slightly below, showing him at eye level with his daughter in the wheelchair beside him."
+  },
+  "expression": "Serene — soft smile, relaxed brow, eyes warm. A sense of peace and purpose.",
+  "mood": "Relief, quiet joy, sustainable love, newfound freedom from unnecessary suffering.",
+  "lighting": "Warm golden afternoon light flooding through a window. Soft highlights on his face and jacket. High key but not overly bright.",
+  "note": "This expression appears only in resolution scenes (Act VII). Contrast with 疲惫隐忍 to show transformation."
+}

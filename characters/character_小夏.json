@@ -1,0 +1,25 @@
+{
+  "character": "小夏（女儿）",
+  "description": "Xiao Xia (daughter), 26 years old. A young woman with long dark hair usually tied in a loose low ponytail or resting on her shoulders. She has a delicate, slender build. Her lower body is paralyzed due to a spinal cord injury; she uses a lightweight manual wheelchair for daily mobility. She has expressive, large eyes and a gentle, quiet demeanor. Her skin is fair, and she carries herself with understated dignity despite her dependence on others.",
+  "scene": "Domestic apartment interior, bedroom, or wheelchair at a desk or by a window. Soft natural light.",
+  "clothing": "Light-colored home wear — pale blue or cream loose-fitting tops, soft pajama-like trousers when in bed, simple casual dress when out. Never hospital gown in home scenes.",
+  "actions": {
+    "default": "Sitting upright in her wheelchair, hands resting on her lap or on the wheelchair armrests. Watching her father or the room.",
+    "being_lifted": "Arms hanging at her sides or slightly bracing against her father's shoulders. Body completely dependent on his lift, feet dangling off the bed.",
+    "in_wheelchair": "Hands on wheelchair push rims or resting. Looking around the room with calm awareness.",
+    "smiling": "Turning her head slightly toward her father or something pleasant, a soft natural smile."
+  },
+  "angles": {
+    "front": "Face looking directly forward or slightly downward. Large expressive eyes, gentle features, a quiet resilience beneath the calm surface.",
+    "side": "Profile showing the curve of her neck and the way she holds her torso rigidly when being transferred, or relaxed when seated.",
+    "three_quarter": "From above, showing her small frame in the wheelchair and how she occupies the seat.",
+    "low_angle": "From wheelchair level looking up, emphasizing her perspective of the room and her father standing above."
+  },
+  "expression_anchors": {
+    "calm_dependent": "Relaxed eyes, neutral mouth, a quiet trust in others. Dependence shown through stillness, not through distress.",
+    "embarrassed": "Eyes briefly averted, slight flush on cheeks, a small tense line at the corner of her mouth. Brief discomfort during physical transfer.",
+    "safe": "Eyes softened, a barely perceptible smile, shoulders relaxed. A feeling of being securely held. Used when being properly supported by a device."
+  },
+  "wheelchair": "Lightweight manual wheelchair, dark frame, adjustable footrests. Always positioned near the bed or a door.",
+  "note": "She must never be depicted as pitiful, a burden, or an object. She is a full person with agency, intelligence, and quiet strength."
+}

@@ -1,0 +1,19 @@
+{
+  "character": "我（叙述者）",
+  "description": "The narrator (\"我\" / \"I\"). An observer, likely a medical professional or someone close to the situation, who witnesses the events from a slight distance. This character appears minimally in the visual narrative — mostly as voiceover/旁白 text — to avoid stealing focus from 老周 and 小夏. When depicted: a figure in casual everyday clothing (button-up shirt or simple jacket), seen from behind, in profile, or as a partial figure in a doorway or hallway.",
+  "scene": "Rehabilitation clinic waiting area, hospital corridor, or observing from a doorway.",
+  "clothing": "Casual button-up shirt or simple jacket, everyday trousers.",
+  "actions": {
+    "default": "Standing or sitting quietly, observing. Often with a phone or notepad in hand.",
+    "reading_phone": "Looking down at a phone screen showing the viral video.",
+    "watching": "Standing at the edge of a room, watching 老周 and 小夏."
+  },
+  "angles": {
+    "back": "Seen from behind, usually with the scene visible over their shoulder.",
+    "profile": "Side profile, slightly out of focus or at the edge of frame.",
+    "partial": "Only a hand, arm, or the edge of their body visible, emphasizing their role as observer."
+  },
+  "expression": "Uncomfortable, reflective. A tightness in the jaw, a furrowed brow — the look of someone who knows something should change but hasn't yet.",
+  "mood": "Witness, not participant. Their discomfort mirrors the audience's.",
+  "note": "This character is NARRATIVE FUNCTION ONLY. 95% of scenes will use 旁白 text instead of showing this character visually."
+}

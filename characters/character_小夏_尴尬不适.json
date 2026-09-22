@@ -1,0 +1,15 @@
+{
+  "character": "小夏（女儿）— 尴尬不适",
+  "description": "Xiao Xia (daughter), 26 years old. Same base description: long dark hair, light-colored home wear, in wheelchair.",
+  "scene": "During the physical lifting/transfers by her father. Morning bedroom scene.",
+  "clothing": "Pale blue loose top, trousers.",
+  "actions": "Body completely limp and dependent during the lift, arms hanging at sides, legs dangling. Eyes briefly averting from father's face.",
+  "angles": {
+    "front": "Face showing brief discomfort — eyes averted, slight cheek flush, small tense line at mouth corner.",
+    "three_quarter": "From above, showing her small dependent frame suspended in the lift."
+  },
+  "expression": "Embarrassed — eyes briefly averted, slight flush on cheeks, a small tense line at the corner of her mouth. Brief discomfort during physical transfer.",
+  "mood": "Unspoken guilt about being a physical burden, dignity aching beneath compliance.",
+  "lighting": "Warm but slightly muted morning light, shadows emphasizing the vulnerability of the moment.",
+  "note": "This expression must NOT show suffering as dramatic or pitiful. It is subtle, private, and brief."
+}

@@ -1,0 +1,26 @@
+{
+  "character": "老周（父亲）",
+  "description": "Old Zhou (father), 56 years old. A working-class man with a weathered face, deep-set eyes, and short cropped graying hair. He has a lean but stocky build with visible muscle tension in his arms and shoulders from years of physical labor. His posture is slightly hunched forward, suggesting chronic lower back discomfort. He wears a dark blue work jacket (deep navy, long-sleeved, slightly worn at the elbows), gray cotton trousers, and simple dark slippers at home.",
+  "scene": "Domestic morning scene in a modest apartment. Warm yellow morning light from a small window. A bed with thin bedding and a wheelchair positioned at its foot.",
+  "clothing": "Dark blue work jacket, gray cotton trousers, dark slippers (at home).",
+  "actions": {
+    "default": "Standing with a slight forward lean, one hand resting on his lower back.",
+    "lifting_daughter": "Bending at the waist, both arms reaching under a person's armpits, gritting teeth, exerting force to lift.",
+    "supporting_back": "Straightening up slowly, right hand pressing against his lower back, breathing heavily.",
+    "standing_confident": "Standing tall with straight back in later scenes, hands at his sides or holding a teacup."
+  },
+  "angles": {
+    "front": "Face looking slightly downward, tired but gentle expression. Weathered skin, deep nasolabial folds.",
+    "side": "Profile showing the curved line of his spine, shoulders slightly rolled forward.",
+    "three_quarter": "Three-quarter view from above, showing his hunched posture and the strain in his neck and shoulders.",
+    "low_angle": "Looking up at him from wheelchair level, emphasizing his protective posture over his daughter."
+  },
+  "expression_anchors": {
+    "tired_resigned": "Heavy eyelids, slight frown, mouth closed and pressed. A weariness that goes beyond physical fatigue.",
+    "gritting_teeth": "Jaw clenched, teeth visible, brow deeply furrowed. Veins visible on forehead. Pure physical exertion.",
+    "relieved": "Eyes slightly widened, mouth relaxed, shoulders dropping as he straightens up. Quiet satisfaction.",
+    "serene": "Soft smile, relaxed brow, eyes warm. A sense of peace and purpose. Used in later resolution scenes."
+  },
+  "wheelchair_relation": "He is the one pushing/transferring the wheelchair. The wheelchair is always positioned near the bed he transfers from.",
+  "note": "He must never be depicted as a villain or a helpless victim. He is a capable man limited by circumstances and cultural expectations."
+}

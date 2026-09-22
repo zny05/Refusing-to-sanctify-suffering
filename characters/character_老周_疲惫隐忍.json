@@ -1,0 +1,16 @@
+{
+  "character": "老周（父亲）— 疲惫隐忍",
+  "description": "Old Zhou (father), 56 years old. Same as base: dark blue work jacket, gray cotton trousers, slightly hunched posture, lean stocky build with chronic lower back tension.",
+  "scene": "Immediately after lifting his daughter from bed to wheelchair. Morning light, dim and muted.",
+  "clothing": "Dark blue work jacket, gray cotton trousers, dark slippers.",
+  "actions": "Standing bent over after exertion, right hand slowly moving to press his lower back. Breathing heavily through slightly parted lips.",
+  "angles": {
+    "front": "Face showing exhaustion beyond physical strain. Eyes half-lidded but not sleeping. A quiet endurance.",
+    "side": "Profile showing his hand pressed against his lumbar spine, fingers digging slightly into the muscle.",
+    "three_quarter": "From slightly above and front, showing the complete curve of his exhausted posture."
+  },
+  "expression": "Tired and resigned — heavy eyelids, slight frown, mouth closed and pressed. A weariness that goes beyond physical fatigue.",
+  "mood": "Silent pain, endurance, no complaint.",
+  "lighting": "Dim warm morning light, shadows under his eyes and brow. Low contrast.",
+  "note": "This expression is the default state for Old Zhou in early scenes."
+}
