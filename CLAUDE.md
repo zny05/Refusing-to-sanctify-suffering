@@ -1,7 +1,7 @@
 # 《不再歌颂苦难》漫画制作规范（SOP）
 
 > **角色**：本项目首席漫画编剧与分镜导演。将用户提供的故事文章转化为专业的平面漫画生图脚本。
-> **当前阶段**：仅完成项目初始化，待开始 Step 1。不得将待规划占位视为已完成规划。
+> **当前阶段**：Step 1–6 全部完成（SOP 工作流闭环）。下一阶段为 Phase 2：角色设定图生成 → 分镜生图 → 质量复核 → 成品组装 → 发布准备。
 > **同步规则**：本文件与 CLAUDE.TXT 保持内容一致。Windows 文件系统中 CLAUDE.MD 与 CLAUDE.md 为同一文件，不另建大小写副本。
 
 ## 一、项目来源与创作边界
@@ -211,10 +211,33 @@ Nano Banana 2 具备极强的图像内文字渲染能力。如果需要在漫画
 - 新增创作与原文事实区分；医学、辅具、政策信息按适用范围核验。
 - 更新实际进度，不把占位文档、提示词或未生成的图片写成已完成作品。
 
-## 五、当前项目状态
+## 五、当前项目状态（2025-09-22 更新）
 
-- 原始素材已就位，Markdown 同文副本已建立。
-- story_pacing_plan.md 为待规划占位；页数、叙事框架、画风及角色尚未确定。
-- characters/、pages/、panels/、prompts/ 仅保留 .gitkeep，尚无新故事制作产出。
-- 下一步：由用户启动 Step 1，不在初始化中提前生成分镜或角色。
+**SOP 1–6 已全部完成，产出如下：**
+
+| 步骤 | 产出文件 | 数量 | 状态 |
+|------|---------|------|------|
+| Step 1 | story_pacing_plan.md | 1 | ✅ 16 页、4 幕 7 章节奏、跨页计数规则 |
+| Step 2 | characters/*.json | 9 | ✅ 3 角色 × 3 表情锚点（老周：基础/疲惫/释然；小夏：基础/安心/尴尬/平静；我：基础） |
+| Step 3 | 内嵌于 pacing plan | — | ✅ 5 批次（A–E）对应 Act I–VII |
+| Step 4 | pages/page_00.md ~ page_15.md | 16 | ✅ 页级分镜，含跨页 Left/Right 标注 |
+| Step 5 | panels/p00_panel01.md ~ p15_panel02.md | 34 | ✅ 格级细节：构图、人物、气泡文字、光影、水印 |
+| Step 6 | prompts/prompt_p00_panel01.json ~ prompt_p15_panel02.json | 34 | ✅ Nano Banana 2 提示词 JSON，英文描述+中文文字，无画幅比例，含水印 |
+
+**文件清单验证**：
+- prompts/ 34 个 JSON（全部通过 JSON 语法校验）
+- panels/ 34 个 MD
+- pages/ 16 个 MD
+- characters/ 9 个 JSON
+
+**工作区**：已清理遗留 JPEG 参考图（9 张）、根目录重复技术规范 MD（2 个）；Git 工作区干净，已推送至 origin/main (f8cf0b9)。
+
+**下一阶段（Phase 2）建议任务段**：
+1. **2A 角色设定图**：用 9 个角色锚点生成 Master Character Sheets（1:1 或 16:9，正/侧/三分面）
+2. **2B 分镜生图**：按 34 个 prompts/ JSON 批量生成（建议分 4 批对应 Act I–VII），每批后一致性复核
+3. **2C 质量复核与修补**：逐格核对 L1/L2/L3 一致性、文字渲染、水印、构图衔接
+4. **2D 成品组装**：将 34 格按页面拼合（含跨页），输出 16 页最终漫画文件
+5. **2E 发布准备**：预览版、PDF、发布文案、社媒裁切版
+
 - 工作流笔记见 [Prompt_Note.md](Prompt_Note.md)；项目入口见 [README.md](README.md)。
+- GitHub 仓库：[zny05/Refusing-to-sanctify-suffering](https://github.com/zny05/Refusing-to-sanctify-suffering)

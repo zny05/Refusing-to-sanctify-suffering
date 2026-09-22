@@ -33,9 +33,18 @@ Through the daily life of father Old Zhou and his daughter Xiao Xia, the comic e
 
 ## 当前阶段 / Current Stage
 
-**已完成 / Completed**: 项目初始化、Step 1 整体节奏规划（[story_pacing_plan.md](story_pacing_plan.md)）。
+**已完成 / Completed**: **SOP Step 1–6 全部完成**（完整工作流闭环）。
 
-**尚未开始 / Not yet started**: Step 2 角色锚点、Step 3 分批制作、Step 4–6 页级/格级分镜与生图提示词。
+| 步骤 / Step | 产出 / Output | 数量 / Count | 状态 / Status |
+|---|---|---|---|
+| Step 1: 架构与视觉规划 | [story_pacing_plan.md](story_pacing_plan.md) | 1 文件 | ✅ |
+| Step 2: 角色一致性锚点 | `characters/*.json` | 9 个 JSON | ✅ |
+| Step 3: 分批分阶段实施 | 内嵌于 pacing plan | 5 批次 (A–E) | ✅ |
+| Step 4: 逐页拆解分镜 | `pages/page_00.md` ~ `page_15.md` | 16 个 MD | ✅ |
+| Step 5: 定版分格细节 | `panels/pXX_panelYY.md` | 34 个 MD | ✅ |
+| Step 6: 生图提示词工程 | `prompts/prompt_pXX_panelYY.json` | 34 个 JSON | ✅ |
+
+**尚未开始 / Not yet started**: **Phase 2 生产与交付** — 角色设定图生成 → 分镜生图 → 质量复核 → 成品组装 → 发布准备。
 
 ### 规划概览 / Plan Overview
 
@@ -76,11 +85,11 @@ Through the daily life of father Old Zhou and his daughter Xiao Xia, the comic e
 ## 六步制作流程 / Six-Step Production Workflow
 
 1. **架构与视觉规划** / **Architecture & Visual Planning**: 阅读原文，明确叙事框架、总页数、视觉节奏和逐页剧情，输出 [story_pacing_plan.md](story_pacing_plan.md)。✅ **Done**
-2. **角色一致性锚点** / **Character Anchors**: 建立基础角色与表情 JSON，确定外观、服饰、动作、角度和场景描述。⏳ Pending
-3. **分批分阶段实施** / **Batch Execution**: 依据规划安排批次，每批检查剧情、人物和空间连贯性。⏳ Pending
-4. **逐页拆解分镜** / **Page Storyboarding**: 输出 `pages/page_XX.md`，标注页面属性、分格、构图和视觉重心。⏳ Pending
-5. **定版分格细节** / **Panel Details**: 输出 `panels/pXX_panelYY.md`，明确画面布局、人物表现、气泡位置和文字。⏳ Pending
-6. **生图提示词工程** / **Image Prompt Engineering**: 输出 `prompts/prompt_pXX_panelYY.json`，供 Nano Banana 2 使用。⏳ Pending
+2. **角色一致性锚点** / **Character Anchors**: 建立基础角色与表情 JSON，确定外观、服饰、动作、角度和场景描述。✅ **Done** (9 JSON)
+3. **分批分阶段实施** / **Batch Execution**: 依据规划安排批次，每批检查剧情、人物和空间连贯性。✅ **Done** (5 批次 A–E)
+4. **逐页拆解分镜** / **Page Storyboarding**: 输出 `pages/page_XX.md`，标注页面属性、分格、构图和视觉重心。✅ **Done** (16 MD)
+5. **定版分格细节** / **Panel Details**: 输出 `panels/pXX_panelYY.md`，明确画面布局、人物表现、气泡位置和文字。✅ **Done** (34 MD)
+6. **生图提示词工程** / **Image Prompt Engineering**: 输出 `prompts/prompt_pXX_panelYY.json`，供 Nano Banana 2 使用。✅ **Done** (34 JSON)
 
 ---
 
