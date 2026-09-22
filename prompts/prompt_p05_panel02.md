@@ -1,0 +1,5 @@
+Front view in modern editorial comic style, cool palette. A translucent glass wall spans the center of the frame horizontally, dividing the space into two worlds. Outside the wall (left and foreground) is a family silhouette walking with difficulty — two adults and a wheelchair user, shown as abstract silhouettes without facial details. The family is in cool gray-blue tones. Inside the wall (right and background) is a bright shelf area stocked with assistive devices: patient lift hoist, ceiling track system, transfer board, transfer belt. The devices glow with warm golden light. The glass wall has faint Chinese text "认知障碍" "政策壁垒" "信息不对称" etched on it. No speech bubbles, no narration, no SFX.
+
+玻璃墙上刻有中文文字 "认知障碍"、"政策壁垒"、"信息不对称"。
+
+text watermark 'P05-PN02' in the bottom-right corner。 情绪基调：barrier visualization, warm solutions behind cold walls, structural injustice。 光影：cool gray-blue family silhouettes, warm golden device glow, glass wall reflections。 4K 超高分辨率，电影级清晰度。

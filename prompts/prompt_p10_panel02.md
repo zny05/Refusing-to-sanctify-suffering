@@ -1,0 +1,5 @@
+Front view in modern editorial comic style, dark purple tones. OldZhou_Father_v1 stands at the center of the frame, one hand on lower back, the other still reaching toward the transfer board from the previous panel. At the four corners of the frame, four translucent dark purple ghost figures surround him. These are abstract cultural pressure figures — faceless, wearing long robes, mouths wide open as if chanting. The ghost figures are semi-transparent dark purple, overlapping the edges of the frame, pressing inward. Chinese text appears as faint purple sound waves from their mouths: "孝顺", "亲自照顾", "用机器是不孝", "父爱伟大". OldZhou_Father_v1's expression is conflicted — brow furrowed, jaw tight, caught between the light of the tool and the pressure of the ghosts. No speech bubbles, no narration, no SFX.
+
+鬼影嘴边显示微弱紫色声波文字 "孝顺"、"亲自照顾"、"用机器是不孝"、"父爱伟大"。
+
+text watermark 'P10-PN02' in the bottom-right corner。 情绪基调：cultural haunting, internalized guilt, pressure vs progress。 光影：dark purple tones, translucent ghost figures, sound wave text rendering。 4K 超高分辨率，电影级清晰度。

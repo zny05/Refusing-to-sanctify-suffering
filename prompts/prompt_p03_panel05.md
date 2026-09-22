@@ -1,0 +1,5 @@
+Medium shot in modern editorial comic style, cool hospital corridor lighting. Narrator_Observer_v1 visible from shoulders up, positioned upper center-right of the frame, sitting quietly. The lower 65% of the page is a text area with slightly brighter cool gray-blue background for visual separation. In the center of the text area, Chinese inner monologue text reads 我们到底是在赞美爱，还是在赞美受苦？ The text is large, centered, and the core question of the story. The empty space above the text creates visual tension. No speech bubbles, no narration label, no SFX.
+
+画面center of text area显示中文心理独白 "我们到底是在赞美爱，还是在赞美受苦？"，large, centered, core question。
+
+text watermark 'P03-PN05' in the bottom-right corner。 情绪基调：core question emergence, quiet epiphany, intellectual weight。 光影：cool hospital corridor lighting on figure, brighter cool gray-blue text area。 4K 超高分辨率，电影级清晰度。

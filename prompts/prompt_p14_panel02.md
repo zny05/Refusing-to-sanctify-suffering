@@ -1,0 +1,5 @@
+Clean layout page in modern editorial comic style. Lower 45% of page. Chinese appeal text block centered in the middle: 如果你是医学生，以后在临床上遇到需要长期照护的患者，不要只开药和医嘱。多花两分钟，告诉家属：不要硬抱。去了解一下移位机。保护你的腰，就是保护这个家。 The text contains a direct quote within Chinese quotation marks. On one side or near the text, a simple line art illustration of a pen next to two prescription symbols, symbolizing spending two extra minutes. Background is consistent with P14-PN01 — light and clean. Visual center is the appeal text block. No speech bubbles, no narration label, no SFX.
+
+画面center, lower area显示中文呼吁段落 "如果你是医学生，以后在临床上遇到需要长期照护的患者，不要只开药和医嘱。多花两分钟，告诉家属：不要硬抱。去了解一下移位机。保护你的腰，就是保护这个家。"，medium font, clean layout, quote preserved within Chinese quotation marks。
+
+text watermark 'P14-PN02' in the bottom-right corner。 情绪基调：professional system outreach, specific action (two minutes), protecting caregivers。 光影：light warm background, clear dark text, simple warm illustration accents。 4K 超高分辨率，电影级清晰度。

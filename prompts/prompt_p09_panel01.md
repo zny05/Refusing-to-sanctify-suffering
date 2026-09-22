@@ -1,0 +1,3 @@
+Extreme close-up side shot in modern editorial comic style, warm tones but oppressive. Close-up of OldZhou_Father_v1's right hand slowly pressing his lower back. Visible: rough palm, pressing knuckles, lower back muscle contour. A red vector arrow enters the L4/L5 intervertebral space from the side, indicating shear force direction — the only red element, prominent but not garish. The visible portion of face at the top of frame shows furrowed brow and tight-lipped endurance per character_老周_疲惫隐忍 expression. No speech bubbles, no narration, no SFX.
+
+text watermark 'P09-PN01' in the bottom-right corner。 情绪基调：anatomical truth, chronic pain visualization, silent endurance。 光影：warm tones but oppressive, red vector arrow highlight, skin texture detail。 4K 超高分辨率，电影级清晰度。

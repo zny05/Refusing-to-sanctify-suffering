@@ -1,0 +1,6 @@
+Two horizontal data blocks side by side in modern editorial comic style, cool blue palette continuing from P08-PN01. Left block (40% width): Chinese text 一项针对慢性运动障碍患者配偶的研究发现 at top, red large number 72.5% centered, below it the text 至少患有一种肌肉骨骼疾病的照护者占, then small text （待核实）— 原文未注明来源. Left block has a body outline icon with red musculoskeletal highlights. Right block (40% width): Chinese text 美国老年医学会数据显示 at top, red large number 11.2% centered, below it the text 使用辅助器具后照护者腰痛显著减轻, then small text （待核实）— 原文未注明来源. Right block has a downward arrow icon from red to green. No speech bubbles, no narration, no SFX.
+
+画面left block顶部显示中文文字 "一项针对慢性运动障碍患者配偶的研究发现"，中心显示红色大号 "72.5%"，下方显示 "至少患有一种肌肉骨骼疾病的照护者占"，底部小字 "（待核实）— 原文未注明来源"。
+画面right block顶部显示中文文字 "美国老年医学会数据显示"，中心显示红色大号 "11.2%"，下方显示 "使用辅助器具后照护者腰痛显著减轻"，底部小字 "（待核实）— 原文未注明来源"。
+
+text watermark 'P08-PN02' in the bottom-right corner。 情绪基调：comparative evidence, solution efficacy, citation gap persists。 光影：cool blue palette, red data highlights, clean infographic lighting。 4K 超高分辨率，电影级清晰度。

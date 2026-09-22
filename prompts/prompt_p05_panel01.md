@@ -1,0 +1,5 @@
+Wide-angle shot in modern editorial comic style. Pharmacy aisle scene occupying the upper 60% of the page. Both sides have tall shelves extending from floor to near ceiling, packed with health supplements and medicines. The aisle extends into the depth with perspective vanishing at the center. The key visual information is that supplement labels like 保健品, 补钙, 强筋健骨 are large and colorful (golden, red) while assistive device labels like 骨折支具, 转移板, 移位机 are small and muted (gray, pale blue). A family figure stands in the aisle, back to viewer, facing the shelves. No speech bubbles, no narration, no SFX.
+
+货架标签显示中文文字 "保健品"、"补钙"、"强筋健骨" (大号、金红色) 以及 "骨折支具"、"转移板"、"移位机" (小号、灰蓝色)。
+
+text watermark 'P05-PN01' in the bottom-right corner。 情绪基调：commercial bias, invisible needs, systemic neglect。 光影：cool fluorescent pharmacy lighting, perspective depth, color contrast highlights。 4K 超高分辨率，电影级清晰度。

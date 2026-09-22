@@ -1,0 +1,5 @@
+Large negative space page in modern editorial comic style, warm white background with subtle paper texture. Upper 75% of page is entirely empty — no characters, no scene, no objects. In the upper-center area, a very small Chinese text line centered reads: 一块转移板改变不了一个家庭的命运。但它可以改变一个父亲的腰椎。而一个父亲的腰椎，往往就是一个失能家庭最后的支柱。 The visual weight of this panel is in its absence — the empty space conveys the quiet power of no longer singing praises to suffering. No speech bubbles, no narration label, no SFX.
+
+画面upper-center area居中显示中文结语段落 "一块转移板改变不了一个家庭的命运。但它可以改变一个父亲的腰椎。而一个父亲的腰椎，往往就是一个失能家庭最后的支柱。"，tiny font, centered。
+
+text watermark 'P15-PN01' in the bottom-right corner。 情绪基调：quiet strength, emptiness as statement, post-words stillness。 光影：uniform warm white, subtle paper texture, no dramatic shadows。 4K 超高分辨率，电影级清晰度。

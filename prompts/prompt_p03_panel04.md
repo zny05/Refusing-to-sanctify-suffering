@@ -1,0 +1,3 @@
+Extreme close-up of Narrator_Observer_v1's face in modern editorial comic style, shallow depth-of-field. Frontal face close-up, slightly upward angle of about 5-10 degrees as the character lifts gaze from phone. Expression: uncomfortable, reflective — tightness in the jaw, furrowed brow, the look of someone who knows something should change but hasn't yet. Eyes half-focused, transitioning from screen to room. Hospital fluorescent light creates soft shadows under the brow and cheekbones. No speech bubbles, no narration, no SFX.
+
+text watermark 'P03-PN04' in the bottom-right corner。 情绪基调：micro-realization, uncomfortable truth, internal shift。 光影：hospital fluorescent light, soft shadows under brow and cheekbones, shallow depth-of-field。 4K 超高分辨率，电影级清晰度。
